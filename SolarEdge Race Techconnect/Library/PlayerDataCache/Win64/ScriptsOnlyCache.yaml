@@ -1,0 +1,2643 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - HideUIOnClick
+    - ItemEvent
+    - ItemManager
+    - ItemTrigger
+    - NWH.Common.PostProcessing.PostProcessingController
+    - OscillateMovement
+    - ScoreManager
+    CFXRRuntime.dll:
+    - CartoonFX.CFXR_Effect
+    NWH.Common:
+    - NWH.Common.AssetInfo.AssetInfo
+    NWH.Common.dll:
+    - NWH.Common.Cameras.CameraChanger
+    - NWH.Common.Cameras.CameraInsideVehicle
+    - NWH.Common.Cameras.CameraMouseDrag
+    - NWH.Common.Demo.FpsToText
+    - NWH.Common.Demo.RigidbodyFPSController
+    - NWH.Common.Input.InputSystemSceneInputProvider
+    - NWH.Common.SceneManagement.CharacterVehicleChanger
+    - NWH.Common.SceneManagement.VehicleChanger
+    NWH.NRigidbody.dll:
+    - NWH.NPhysics.NRigidbody
+    NWH.VehiclePhysics2:
+    - NWH.VehiclePhysics2.GroundDetection.GroundDetectionPreset
+    - NWH.VehiclePhysics2.GroundDetection.SurfacePreset
+    - NWH.VehiclePhysics2.LOD
+    - NWH.VehiclePhysics2.Powertrain.TransmissionGearingProfile
+    - NWH.VehiclePhysics2.StateSettings
+    NWH.VehiclePhysics2.dll:
+    - NWH.VehiclePhysics2.Demo.DemoGUIController
+    - NWH.VehiclePhysics2.Demo.DemoSettings
+    - NWH.VehiclePhysics2.Demo.DemoTelemetry
+    - NWH.VehiclePhysics2.Demo.LapTimer
+    - NWH.VehiclePhysics2.Demo.VehicleOverview.VehicleOverview
+    - NWH.VehiclePhysics2.Demo.VehicleOverview.WheelGroupUI
+    - NWH.VehiclePhysics2.Demo.VehicleOverview.WheelUI
+    - NWH.VehiclePhysics2.GroundDetection.GroundDetectionPreset
+    - NWH.VehiclePhysics2.GroundDetection.SurfacePreset
+    - NWH.VehiclePhysics2.Input.InputSystemVehicleInputProvider
+    - NWH.VehiclePhysics2.LOD
+    - NWH.VehiclePhysics2.Modules.ABS.ABSModuleWrapper
+    - NWH.VehiclePhysics2.Modules.Aerodynamics.AerodynamicsModuleWrapper
+    - NWH.VehiclePhysics2.Modules.CruiseControl.CruiseControlModuleWrapper
+    - NWH.VehiclePhysics2.Modules.ESC.ESCModuleWrapper
+    - NWH.VehiclePhysics2.Modules.FlipOver.FlipOverModuleWrapper
+    - NWH.VehiclePhysics2.Modules.TCS.TCSModuleWrapper
+    - NWH.VehiclePhysics2.Powertrain.TransmissionGearingProfile
+    - NWH.VehiclePhysics2.StateSettings
+    - NWH.VehiclePhysics2.Utility.FollowVehicleState
+    - NWH.VehiclePhysics2.Utility.VehicleReflectionProbe
+    - NWH.VehiclePhysics2.VehicleController
+    - NWH.VehiclePhysics2.VehicleGUI.AnalogGauge
+    - NWH.VehiclePhysics2.VehicleGUI.DashGUIController
+    - NWH.VehiclePhysics2.VehicleGUI.DashLight
+    - NWH.VehiclePhysics2.VehicleGUI.DigitalGauge
+    NWH.WheelController:
+    - NWH.WheelController3D.FrictionPreset
+    NWH.WheelController.dll:
+    - NWH.WheelController3D.FrictionPreset
+    - NWH.WheelController3D.WheelController
+    Unity.InputSystem.dll:
+    - UnityEngine.InputSystem.InputActionAsset
+    - UnityEngine.InputSystem.InputActionReference
+    - UnityEngine.InputSystem.InputSettings
+    - UnityEngine.InputSystem.InputSystemObject
+    - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    - UnityEngine.InputSystem.UI.InputSystemUIInputModule
+    Unity.Postprocessing.Runtime.dll:
+    - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
+    - UnityEngine.Rendering.PostProcessing.AutoExposure
+    - UnityEngine.Rendering.PostProcessing.Bloom
+    - UnityEngine.Rendering.PostProcessing.ChromaticAberration
+    - UnityEngine.Rendering.PostProcessing.ColorGrading
+    - UnityEngine.Rendering.PostProcessing.DepthOfField
+    - UnityEngine.Rendering.PostProcessing.Grain
+    - UnityEngine.Rendering.PostProcessing.LensDistortion
+    - UnityEngine.Rendering.PostProcessing.MotionBlur
+    - UnityEngine.Rendering.PostProcessing.PostProcessLayer
+    - UnityEngine.Rendering.PostProcessing.PostProcessProfile
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources
+    - UnityEngine.Rendering.PostProcessing.PostProcessVolume
+    - UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections
+    - UnityEngine.Rendering.PostProcessing.Vignette
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro:
+    - TMPro.TMP_ColorGradient
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.GridLayoutGroup
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.VerticalLayoutGroup
+  serializedClasses:
+    Assembly-CSharp:
+    - ItemManager/ItemEntry
+    CFXRRuntime:
+    - CartoonFX.CFXR_Effect/AnimatedLight
+    - CartoonFX.CFXR_Effect/CameraShake
+    NWH.VehiclePhysics2:
+    - NWH.VehiclePhysics2.Brakes
+    - NWH.VehiclePhysics2.Effects.DamageHandler
+    - NWH.VehiclePhysics2.Effects.DamageHandler/VehicleCollisionEvent
+    - NWH.VehiclePhysics2.Effects.EffectManager
+    - NWH.VehiclePhysics2.Effects.ExhaustFlash
+    - NWH.VehiclePhysics2.Effects.ExhaustSmoke
+    - NWH.VehiclePhysics2.Effects.LightSource
+    - NWH.VehiclePhysics2.Effects.LightsMananger
+    - NWH.VehiclePhysics2.Effects.SkidmarkManager
+    - NWH.VehiclePhysics2.Effects.SurfaceParticleManager
+    - NWH.VehiclePhysics2.Effects.VehicleLight
+    - NWH.VehiclePhysics2.GroundDetection.GroundDetection
+    - NWH.VehiclePhysics2.GroundDetection.SurfaceMap
+    - NWH.VehiclePhysics2.Input.VehicleInputHandler
+    - NWH.VehiclePhysics2.Input.VehicleInputStates
+    - NWH.VehiclePhysics2.Modules.ABS.ABSModule
+    - NWH.VehiclePhysics2.Modules.Aerodynamics.AerodynamicsModule
+    - NWH.VehiclePhysics2.Modules.CruiseControl.CruiseControlModule
+    - NWH.VehiclePhysics2.Modules.ESC.ESCModule
+    - NWH.VehiclePhysics2.Modules.FlipOver.FlipOverModule
+    - NWH.VehiclePhysics2.Modules.ModuleManager
+    - NWH.VehiclePhysics2.Modules.TCS.TCSModule
+    - NWH.VehiclePhysics2.Powertrain.ClutchComponent
+    - NWH.VehiclePhysics2.Powertrain.DifferentialComponent
+    - NWH.VehiclePhysics2.Powertrain.EngineComponent
+    - NWH.VehiclePhysics2.Powertrain.EngineComponent/ForcedInduction
+    - NWH.VehiclePhysics2.Powertrain.OutputSelector
+    - NWH.VehiclePhysics2.Powertrain.Powertrain
+    - NWH.VehiclePhysics2.Powertrain.PowertrainComponent
+    - NWH.VehiclePhysics2.Powertrain.TransmissionComponent
+    - NWH.VehiclePhysics2.Powertrain.TransmissionComponent/ShiftEvent
+    - NWH.VehiclePhysics2.Powertrain.Wheel.WheelGroup
+    - NWH.VehiclePhysics2.Powertrain.Wheel.WheelGroupSelector
+    - NWH.VehiclePhysics2.Powertrain.WheelComponent
+    - NWH.VehiclePhysics2.Sound.SoundComponents.BlinkerComponent
+    - NWH.VehiclePhysics2.Sound.SoundComponents.BrakeHissComponent
+    - NWH.VehiclePhysics2.Sound.SoundComponents.CrashComponent
+    - NWH.VehiclePhysics2.Sound.SoundComponents.EngineFanComponent
+    - NWH.VehiclePhysics2.Sound.SoundComponents.EngineRunningComponent
+    - NWH.VehiclePhysics2.Sound.SoundComponents.EngineStartComponent
+    - NWH.VehiclePhysics2.Sound.SoundComponents.GearChangeComponent
+    - NWH.VehiclePhysics2.Sound.SoundComponents.HornComponent
+    - NWH.VehiclePhysics2.Sound.SoundComponents.ReverseBeepComponent
+    - NWH.VehiclePhysics2.Sound.SoundComponents.SuspensionBumpComponent
+    - NWH.VehiclePhysics2.Sound.SoundComponents.TransmissionWhineComponent
+    - NWH.VehiclePhysics2.Sound.SoundComponents.TurboFlutterComponent
+    - NWH.VehiclePhysics2.Sound.SoundComponents.TurboWhistleComponent
+    - NWH.VehiclePhysics2.Sound.SoundComponents.WheelSkidComponent
+    - NWH.VehiclePhysics2.Sound.SoundComponents.WheelTireNoiseComponent
+    - NWH.VehiclePhysics2.Sound.SoundManager
+    - NWH.VehiclePhysics2.StateDefinition
+    - NWH.VehiclePhysics2.Steering
+    NWH.WheelController:
+    - NWH.WheelController3D.Damper
+    - NWH.WheelController3D.Friction
+    - NWH.WheelController3D.Spring
+    - NWH.WheelController3D.Wheel
+    Unity.InputSystem:
+    - UnityEngine.InputSystem.InputAction
+    - UnityEngine.InputSystem.InputActionMap
+    - UnityEngine.InputSystem.InputBinding
+    - UnityEngine.InputSystem.InputControlScheme
+    - UnityEngine.InputSystem.InputControlScheme/DeviceRequirement
+    Unity.Postprocessing.Runtime:
+    - UnityEngine.Rendering.PostProcessing.AmbientOcclusionModeParameter
+    - UnityEngine.Rendering.PostProcessing.AmbientOcclusionQualityParameter
+    - UnityEngine.Rendering.PostProcessing.BoolParameter
+    - UnityEngine.Rendering.PostProcessing.ColorParameter
+    - UnityEngine.Rendering.PostProcessing.FastApproximateAntialiasing
+    - UnityEngine.Rendering.PostProcessing.FloatParameter
+    - UnityEngine.Rendering.PostProcessing.Fog
+    - UnityEngine.Rendering.PostProcessing.GradingModeParameter
+    - UnityEngine.Rendering.PostProcessing.HistogramMonitor
+    - UnityEngine.Rendering.PostProcessing.IntParameter
+    - UnityEngine.Rendering.PostProcessing.LightMeterMonitor
+    - UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer
+    - UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer/OverlaySettings
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources/ComputeShaders
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources/SMAALuts
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources/Shaders
+    - UnityEngine.Rendering.PostProcessing.Spline
+    - UnityEngine.Rendering.PostProcessing.SplineParameter
+    - UnityEngine.Rendering.PostProcessing.SubpixelMorphologicalAntialiasing
+    - UnityEngine.Rendering.PostProcessing.TemporalAntialiasing
+    - UnityEngine.Rendering.PostProcessing.TextureParameter
+    - UnityEngine.Rendering.PostProcessing.TonemapperParameter
+    - UnityEngine.Rendering.PostProcessing.Vector2Parameter
+    - UnityEngine.Rendering.PostProcessing.Vector4Parameter
+    - UnityEngine.Rendering.PostProcessing.VectorscopeMonitor
+    - UnityEngine.Rendering.PostProcessing.VignetteModeParameter
+    - UnityEngine.Rendering.PostProcessing.WaveformMonitor
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_GlyphAdjustmentRecord
+    - TMPro.TMP_GlyphPairAdjustmentRecord
+    - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    - TMPro.VertexGradient
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.Events.UnityEvent
+    - UnityEngine.RectOffset
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
+    UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Scrollbar/ScrollEvent
+    - UnityEngine.UI.Slider/SliderEvent
+    - UnityEngine.UI.SpriteState
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: HideUIOnClick
+    methodName: HideUI
+  sceneClasses:
+    Assets/Scenes/MapCar.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1628}
+    - Class: 114
+      Script: {instanceID: 1630}
+    - Class: 114
+      Script: {instanceID: 1632}
+    - Class: 114
+      Script: {instanceID: 1634}
+    - Class: 114
+      Script: {instanceID: 1636}
+    - Class: 114
+      Script: {instanceID: 1638}
+    - Class: 114
+      Script: {instanceID: 1640}
+    - Class: 114
+      Script: {instanceID: 1642}
+    - Class: 114
+      Script: {instanceID: 1784}
+    - Class: 114
+      Script: {instanceID: 1846}
+    - Class: 114
+      Script: {instanceID: 1956}
+    - Class: 114
+      Script: {instanceID: 1986}
+    - Class: 114
+      Script: {instanceID: 2392}
+    - Class: 114
+      Script: {instanceID: 2430}
+    - Class: 114
+      Script: {instanceID: 2622}
+    - Class: 114
+      Script: {instanceID: 2672}
+    - Class: 114
+      Script: {instanceID: 2686}
+    - Class: 114
+      Script: {instanceID: 2964}
+    - Class: 114
+      Script: {instanceID: 2980}
+    - Class: 114
+      Script: {instanceID: 3212}
+    - Class: 114
+      Script: {instanceID: 3304}
+    - Class: 114
+      Script: {instanceID: 3358}
+    - Class: 114
+      Script: {instanceID: 3424}
+    - Class: 114
+      Script: {instanceID: 3638}
+    - Class: 114
+      Script: {instanceID: 3794}
+    - Class: 114
+      Script: {instanceID: 3798}
+    - Class: 114
+      Script: {instanceID: 4134}
+    - Class: 114
+      Script: {instanceID: 4150}
+    - Class: 114
+      Script: {instanceID: 4350}
+    - Class: 114
+      Script: {instanceID: 4396}
+    - Class: 114
+      Script: {instanceID: 4452}
+    - Class: 114
+      Script: {instanceID: 4544}
+    - Class: 114
+      Script: {instanceID: 4678}
+    - Class: 114
+      Script: {instanceID: 4730}
+    - Class: 114
+      Script: {instanceID: 4866}
+    - Class: 114
+      Script: {instanceID: 4972}
+    - Class: 114
+      Script: {instanceID: 4984}
+    - Class: 114
+      Script: {instanceID: 5114}
+    - Class: 114
+      Script: {instanceID: 5122}
+    - Class: 114
+      Script: {instanceID: 5132}
+    - Class: 114
+      Script: {instanceID: 5188}
+    - Class: 114
+      Script: {instanceID: 5290}
+    - Class: 114
+      Script: {instanceID: 5364}
+    - Class: 114
+      Script: {instanceID: 5528}
+    - Class: 114
+      Script: {instanceID: 5704}
+    - Class: 114
+      Script: {instanceID: 5708}
+    - Class: 114
+      Script: {instanceID: 5742}
+    - Class: 114
+      Script: {instanceID: 5826}
+    - Class: 114
+      Script: {instanceID: 5996}
+    - Class: 114
+      Script: {instanceID: 6002}
+    - Class: 114
+      Script: {instanceID: 6086}
+    - Class: 114
+      Script: {instanceID: 6102}
+    - Class: 114
+      Script: {instanceID: 6376}
+    - Class: 114
+      Script: {instanceID: 6708}
+    - Class: 114
+      Script: {instanceID: 6768}
+    - Class: 114
+      Script: {instanceID: 6886}
+    - Class: 114
+      Script: {instanceID: 6964}
+    - Class: 114
+      Script: {instanceID: 6972}
+    - Class: 114
+      Script: {instanceID: 7118}
+    - Class: 114
+      Script: {instanceID: 7378}
+    - Class: 114
+      Script: {instanceID: 7466}
+    - Class: 114
+      Script: {instanceID: 7504}
+    - Class: 114
+      Script: {instanceID: 7604}
+    - Class: 114
+      Script: {instanceID: 7674}
+    - Class: 114
+      Script: {instanceID: 7728}
+    - Class: 114
+      Script: {instanceID: 7800}
+    - Class: 114
+      Script: {instanceID: 7814}
+    - Class: 114
+      Script: {instanceID: 7818}
+    - Class: 114
+      Script: {instanceID: 7834}
+    - Class: 114
+      Script: {instanceID: 7882}
+    - Class: 114
+      Script: {instanceID: 8236}
+    - Class: 114
+      Script: {instanceID: 8288}
+    - Class: 114
+      Script: {instanceID: 8390}
+    - Class: 114
+      Script: {instanceID: 8662}
+    - Class: 114
+      Script: {instanceID: 8670}
+    - Class: 114
+      Script: {instanceID: 8860}
+    - Class: 114
+      Script: {instanceID: 9034}
+    - Class: 114
+      Script: {instanceID: 9270}
+    - Class: 114
+      Script: {instanceID: 9354}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 153
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 215
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: b5007673bbbdb9d12597a1d8201370f5
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: d41ab9b5ea92474f9c0a6937a0607ce1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: d5cd7f207e91ca8336c65a577a6fb2a0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 540882762544409cc4530e60db00e951
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: dd9dda1dfd39e605c49e72003342ef5d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 53e329840e6d03aebec76623c3b054db
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc40a01667ca02b3354a4e7a61be082
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 915204dac8acad99f076d6e72ada0a0f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 0cce928a7f5e1a7ce6331aeaf16d7531
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Tests
+    className: VehicleTeleportTest
+  - hash:
+      serializedVersion: 2
+      Hash: 55060a7bf226ac385ce19ebd450f199f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 0f19765290d81f9e93eff7828a091d40
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: PlayerInput
+  - hash:
+      serializedVersion: 2
+      Hash: 3d73f3541460a10d6251e0de785bdaf1
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Tests
+    className: VehicleSetupWizardTest
+  - hash:
+      serializedVersion: 2
+      Hash: 1ffc9229a39b7eb421d1907fa7dcbd92
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Powertrain
+    className: TransmissionGearingProfileEditor
+  - hash:
+      serializedVersion: 2
+      Hash: c5c5b8035e725c5669c5473d3b5e5d8c
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.Input
+    className: InputManagerSceneInputProviderEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 3de524e780de29f74c32f27fdf6eb564
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Modules.ABS
+    className: ABSModuleWrapper
+  - hash:
+      serializedVersion: 2
+      Hash: e9f18cffa99983bb091f168f4080eec1
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Utility
+    className: VehicleReflectionProbeEditor
+  - hash:
+      serializedVersion: 2
+      Hash: f45600bcc886206dd55a3208474aad61
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollbarValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a3901985eb076c1c9b7562fca82ca3e0
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 8dff8e9853297d341afa0c11f9091b59
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 424074d3010ce4ec3d155fbdba52a3b3
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Grain
+  - hash:
+      serializedVersion: 2
+      Hash: d655c293d5461d2086781fcc2782c94a
+    assemblyName: NWH.WheelController
+    namespaceName: NWH.WheelController3D
+    className: FrictionPresetCollection
+  - hash:
+      serializedVersion: 2
+      Hash: 00bbd9db8634496d079d17711b2ff7c4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: d0caa48b5fe6778ce3f0de7aec45c4e6
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: SkewTextExample
+  - hash:
+      serializedVersion: 2
+      Hash: 157d3cf40178d244cd11ae1c9791ead7
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.HID.Editor
+    className: HIDDescriptorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: ed8e62f07ec878233f5493a335003493
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: VirtualMouseInput
+  - hash:
+      serializedVersion: 2
+      Hash: a6c74ec4dd512cea5e585ad2e5c21269
+    assemblyName: NWH.NRigidbody
+    namespaceName: NWH.NPhysics
+    className: NRigidbody
+  - hash:
+      serializedVersion: 2
+      Hash: 8703b6ae2b0eefd9dafbc44d8d333fb1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 72269a5e2a0c34486d67f955498a6d89
+    assemblyName: CFXRDemo
+    namespaceName: CartoonFX
+    className: CFXR_Demo
+  - hash:
+      serializedVersion: 2
+      Hash: f778e23b6ff26b8de4721be0eb1fa240
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 51ea74bba9b0c38869dee7b1e58e67e7
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Modules.FlipOver
+    className: FlipOverModuleWrapper
+  - hash:
+      serializedVersion: 2
+      Hash: f854af586011dd194574f89546642e29
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 11a492830b189fafb9ed2f7afa464c56
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: SimpleScript
+  - hash:
+      serializedVersion: 2
+      Hash: ef3376d329db3d19597c34bb9a2993e4
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.Input
+    className: MobileSceneInputProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 4799f9248eb486044681095939c3db21
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Modules.ArcadeModule
+    className: ArcadeModuleWrapper
+  - hash:
+      serializedVersion: 2
+      Hash: 78a1eb4cd5688e8d842a2293c60f89ba
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Input
+    className: SteeringWheel
+  - hash:
+      serializedVersion: 2
+      Hash: 6d0dd52ef42c8356e56d9a23b373d8ab
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Tests
+    className: VehicleGeneralTests
+  - hash:
+      serializedVersion: 2
+      Hash: f77e89459c7bc9f9020042248d59762a
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.SceneManagement
+    className: CharacterVehicleChangerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: b12640dfdb5966813e9dd838893e6c4a
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d37fac443e94ee766c922544d71bb582
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HideUIOnClick
+  - hash:
+      serializedVersion: 2
+      Hash: 4937677c51d0256c456fc1772a795da6
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Input
+    className: MobileVehicleInputProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 0c6de72eaf8c1070da824268c4bfad9d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: ad49e20f31ed572e586aa8bbaafb591b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1bc6ff8d02d2d68019aa6a028f8d409d
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b40f8ffcaa6b71545b8d6ff04b849814
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: AdvancedDropdownWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 7e93247d600e115dac0cdd880de94e99
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 83cfda82082c233d96cc677c19f57e07
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreakMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: dffbd3da665050713c4b504a586a3ff5
+    assemblyName: CFXRDemo
+    namespaceName: CartoonFX
+    className: CFXR_Demo_Translate
+  - hash:
+      serializedVersion: 2
+      Hash: 1ab136900c0edaeeb49424c852595030
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 4f36f3fe3ef8e113615936616f7a266a
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Demo
+    className: RotateRigidbody
+  - hash:
+      serializedVersion: 2
+      Hash: c8e5f9b5c68a169873b1e642faec256d
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.VehicleGUI
+    className: AnalogGauge
+  - hash:
+      serializedVersion: 2
+      Hash: 70b3531d890270dc066accd7d59f7311
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.CoM
+    className: MassAffectorEditor
+  - hash:
+      serializedVersion: 2
+      Hash: c0979839258bb6e16d325a982d2116f3
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.VehicleGUI
+    className: DashGUIController
+  - hash:
+      serializedVersion: 2
+      Hash: ff086b2fc4609f8b094e7c0435c6db0a
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessLayer
+  - hash:
+      serializedVersion: 2
+      Hash: 04a9d58c2a71dece2203020095b82d2d
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Modules.NOS
+    className: NOSModuleWrapper
+  - hash:
+      serializedVersion: 2
+      Hash: 1321993db8249e1e05e1e0492b2bbdc3
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameVisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3d26478faca6e0bb31b2897cb8da4060
+    assemblyName: CFXRRuntime
+    namespaceName: CartoonFX
+    className: CFXR_ParticleText
+  - hash:
+      serializedVersion: 2
+      Hash: c9b1ea3bf987a2e780a24849503ca72e
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: Benchmark01_UGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 41757850c35f952627ed82a9bc1830d9
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.AssetInfo
+    className: AssetInfo
+  - hash:
+      serializedVersion: 2
+      Hash: 78224999ef86a59782cb45b491d63bcf
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.CoM
+    className: VariableCenterOfMassEditor
+  - hash:
+      serializedVersion: 2
+      Hash: e987953190eb4c12cf19df790566dc2c
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 52db48e3be0a2b4f8b06f918fd1ebfbc
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f295412bc00b58b9095a71e9764cc886
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 04b6685b6f724c0d6024e6b6f96c8202
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ada873da50974d1e7ce247ffb296b0f3
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: bf673819239f25065378c38985f7c526
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Modules.Metrics
+    className: MetricsModuleWrapper
+  - hash:
+      serializedVersion: 2
+      Hash: 7e12302f66e3c8ed5bcfea4ce65fccea
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ed8bac09ffacadca9994789e381c69ce
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TMP_TextSelector_A
+  - hash:
+      serializedVersion: 2
+      Hash: fce9b835d1e8b08e7ecea8da19f21986
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: CoroutineRunner
+  - hash:
+      serializedVersion: 2
+      Hash: fe111e830148f07e5735ebe7620f752e
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ChromaticAberration
+  - hash:
+      serializedVersion: 2
+      Hash: 6ddf94363c6ce4b02d9fdd51290cb0f9
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5a4aa2850fe11587f47e34c270c7fd22
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 3b5263a98bcc71d9a9d1d78a31b34ced
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 28fd3d045acc780719a17f02073eb448
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6dc3d79712ca4934f6d50c80f010b1
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 6d394de691f6d0187f61c08889353d0e
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnButtonClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e644018f6d93f4f5b82fd414ba38e04e
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.VehicleGUI
+    className: DashLight
+  - hash:
+      serializedVersion: 2
+      Hash: e23d2210701e34e6850023cabe554c1f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldEndEditMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: bf40c7a9dc15bc219687c9838aa9b41f
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 445e41a357c4159f6329e800f7598d90
+    assemblyName: NWH.WheelController
+    namespaceName: NWH.WheelController3D
+    className: WheelController
+  - hash:
+      serializedVersion: 2
+      Hash: 023e86dcc07a7669785b72f2ad557657
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.SetupWizard
+    className: VehicleSetupWizardPresetEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 97d2f1349c0d9c524f0b816d8c87fb4d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ItemManager
+  - hash:
+      serializedVersion: 2
+      Hash: b98001682cba83786775c9e415b89a61
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ef528c30dea3b3f4c3983ea079191d96
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Modules.Rigging
+    className: RiggingModuleWrapper
+  - hash:
+      serializedVersion: 2
+      Hash: b838cbada0b03f1cfbaebc8e124f4f39
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.OnScreen
+    className: OnScreenButton
+  - hash:
+      serializedVersion: 2
+      Hash: 1d830bc5cfaaf24301dffea2877f4bea
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: VertexShakeA
+  - hash:
+      serializedVersion: 2
+      Hash: a1ac4c50e55874de16eee3db71aa9784
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 593a641cd7822a10b9a54aa9eb5c3d5e
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: Benchmark04
+  - hash:
+      serializedVersion: 2
+      Hash: 3985c5c188cfc24bd1d5fce2e79ac5f9
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Demo
+    className: DemoTelemetry
+  - hash:
+      serializedVersion: 2
+      Hash: d90629714fa6b0145fcaffc87f5c6559
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: bb8d968ef4474e71aaad4a4dce279f90
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 617ff1b4ac3a0b254176a40e29e53f0f
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.NUI
+    className: NVP_NUIEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 5cea21532bc0ddb1a711dfb75080496a
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.CoM
+    className: MassAffector
+  - hash:
+      serializedVersion: 2
+      Hash: b6307dfc54cca9ba44f47185c578b0ce
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e9bfee93ebf3a7afacd9b5a36a892fc0
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AutoExposure
+  - hash:
+      serializedVersion: 2
+      Hash: d7c8092511063e0dae8106bfc8ed63dd
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 715f7928b39881049ce8c46350cb8681
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTransformParentChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 68e5d7575354460824a3e69266f6596b
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.VehicleGUI
+    className: DigitalGauge
+  - hash:
+      serializedVersion: 2
+      Hash: 7336e4420be340bf231d2bf798663d22
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Demo.VehicleOverview
+    className: WheelUI
+  - hash:
+      serializedVersion: 2
+      Hash: 86344100c716167fb86137c127ca9eee
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionImporterEditor
+  - hash:
+      serializedVersion: 2
+      Hash: c6369b4cc3be620d6c9300e920bc3d52
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: VariablesAsset
+  - hash:
+      serializedVersion: 2
+      Hash: a8e50b1a9a01727bc6257bdf10b61746
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Demo
+    className: Oscillate
+  - hash:
+      serializedVersion: 2
+      Hash: 6c3149b127f87fead0149b1e191702e3
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Tests
+    className: VehicleControllerTest
+  - hash:
+      serializedVersion: 2
+      Hash: 7bdff9e91edfd9600f92a185def7e34a
+    assemblyName: Unity.VisualScripting.Flow
+    namespaceName: Unity.VisualScripting
+    className: ScriptMachine
+  - hash:
+      serializedVersion: 2
+      Hash: 43ebd945b04bced376c791411cf5a289
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSelectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5b8b7230ad968399f6726aa1269dcdcb
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: d3bece132a2b48e63d78047dece48ba7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ChatController
+  - hash:
+      serializedVersion: 2
+      Hash: cf32d98954e63b8e30e9334b152e9b8e
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 418b67019f13f9684552f2693bae3971
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TextMeshProFloatingText
+  - hash:
+      serializedVersion: 2
+      Hash: e6f8333cc8a800e2866870a5ef7efc35
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnControllerColliderHitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 960935b102b3064f4b924de16426e340
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: b462ce9b96d7f3f3a8a18557fbf44071
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Bloom
+  - hash:
+      serializedVersion: 2
+      Hash: b2d2a01a2a85d9ed12e80cb33a9a6044
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 94bbec12bea0129a951df70f798cd1dd
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Modules.ESC
+    className: ESCModuleWrapper
+  - hash:
+      serializedVersion: 2
+      Hash: 6217b1287eca7eed313cf0b864249a30
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 54523bbc2e5458e2c2880ab877b8049f
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.VehicleGUI
+    className: DigitalGaugeEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 0a3f328f3ea906bbbcf794f4c27ee59d
+    assemblyName: Unity.VisualScripting.Flow
+    namespaceName: Unity.VisualScripting
+    className: ScriptGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: d85292b1d7ddb10e5a2df5d221dcba86
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 72561d2e822b466169cd12a3b9f9ae0c
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: VertexShakeB
+  - hash:
+      serializedVersion: 2
+      Hash: d5338cbaab508fef0deecaafe17a79cd
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.Cameras
+    className: CameraMouseDragEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 5500967763aac3fd65ddaa54f2baaf14
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.GroundDetection
+    className: GroundDetectionPresetEditor
+  - hash:
+      serializedVersion: 2
+      Hash: fb79e95da8891fc7ac6c36ca6967af23
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 2f3ac5d1e8339fea87afdb29653d4a6e
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Demo.VehicleOverview
+    className: VehicleOverview
+  - hash:
+      serializedVersion: 2
+      Hash: 552dca338f20933ce362ebbe559a6aa6
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8f57c52c73a59ebac968d4041c7ee175
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Modules
+    className: ModuleUpgradeHelperEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 7b28d83acbb09d274de47c27eee2c9d4
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Demo
+    className: DemoSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 1deda86fe7ffd8587afcfe68a02d034c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EnvMapAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 95426d463074947dcbffc797c44e779c
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI.Editor
+    className: StandaloneInputModuleModuleEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 665da785348a8806bf1524fe10742a60
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TMP_UiFrameRateCounter
+  - hash:
+      serializedVersion: 2
+      Hash: 5835aa044b7ea3413cc6d9d819e95dd9
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: b747f5d40674055dd70e18552f1b0447
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 110aa327d5a5138dcfcbacb388ae0acc
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessEffectSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 433a2e95a67b1e57c0190446b0cf79d8
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Modules.Trailer
+    className: TrailerModuleWrapper
+  - hash:
+      serializedVersion: 2
+      Hash: 164a37e0bc379311785dd54beac44331
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 8a42435c426fd32e2dc327934adc02ec
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Demo.VehicleOverview
+    className: WheelGroupUI
+  - hash:
+      serializedVersion: 2
+      Hash: 32bfadf4ab14c1e4298d945ac7dbee8f
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputStateWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 0bc7ef1b7516f21320ec49bfd31eef2e
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: TrackedDeviceRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 675723dce682aef13df0076c5fa31896
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.FloatingOrigin
+    className: FloatingOrigin
+  - hash:
+      serializedVersion: 2
+      Hash: 4718916586b3818eb69bf65df61f0f3a
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 185e7bacfbbc5defefa609c70f7ff4ce
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 682dfc653b22feea53b38adb3bc66414
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: c78ed13f6b5a632d70d4f73f56ad81f2
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: VariablesSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 7053e305cdc1eb560f4c3be49d3b5136
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: c154165b7f66306417acd739ea0bc8e3
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Input
+    className: VehicleInputProviderBase
+  - hash:
+      serializedVersion: 2
+      Hash: 042785b832afb73fd0585521aa7baf43
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 1a680d9a08de79b0d2c779e78c9843b4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 959dd03d3bab2597627b98b52a3f918f
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2
+    className: StateSettingsEditor
+  - hash:
+      serializedVersion: 2
+      Hash: a743b6f91002ce61430d3203363a7746
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Tests
+    className: VehicleGeneralTestsEditor
+  - hash:
+      serializedVersion: 2
+      Hash: c933b590b3badb5918fa01e73cd5cc0c
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: b56f2d80e1036fc4c7ee3a9877e17e08
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Modules.Fuel
+    className: FuelModuleWrapper
+  - hash:
+      serializedVersion: 2
+      Hash: ca7965796a6fc0e5baad4cb19f5b5ded
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreak2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e416782d95a812c5b5b00e9b103a8e94
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: CameraController
+  - hash:
+      serializedVersion: 2
+      Hash: 115bbcff0e53502fd7ac6a5d3a9d6d4a
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Modules.MotorcycleModule
+    className: MotorcycleModuleWrapper
+  - hash:
+      serializedVersion: 2
+      Hash: 9ebc0a3016506a0cbb7e0306dfcb9497
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: DictionaryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 4e2824c28176a92ebad59010fc7af27a
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.GroundDetection
+    className: GroundDetectionPreset
+  - hash:
+      serializedVersion: 2
+      Hash: d627004e7be08ec50bdfeb9547a6bcec
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.Demo
+    className: RigidbodyFPSController
+  - hash:
+      serializedVersion: 2
+      Hash: e7e95903ca66d58e1a7cbd71f824e16d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 215d2dc6ec6ea06728398ea39a103cb3
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.OnScreen
+    className: OnScreenStick
+  - hash:
+      serializedVersion: 2
+      Hash: 9f92e751d2286296361a1d06b9e90c1e
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: MotionBlur
+  - hash:
+      serializedVersion: 2
+      Hash: 2c83ce32a854cfe15679fb9425eddeb8
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Utility
+    className: FollowVehicleState
+  - hash:
+      serializedVersion: 2
+      Hash: da1de9e503a6c845150c281ce8b6e3f1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ScoreManager
+  - hash:
+      serializedVersion: 2
+      Hash: 8edb27d59f162c29f8ed3e0c8b1e188c
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.VehicleGUI
+    className: DashGUIControllerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 7ecedab2d1a98c415bbded4fbb65b49d
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Tests
+    className: VehicleControllerTestEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 9078325c2a6f6a2d9612ade897511860
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 96e7bcfd2d072992dab64ac44058b930
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCancelMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 52840a82fb83b3a7df342e354c4815e4
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TMPro_InstructionOverlay
+  - hash:
+      serializedVersion: 2
+      Hash: 3169702b76f449e4a92bd5a9d88878eb
+    assemblyName: NWH.Common
+    namespaceName: NWH.NUI
+    className: NUIEditor
+  - hash:
+      serializedVersion: 2
+      Hash: a75a568ce902366f4e82fc98ca6108f5
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TMP_ExampleScript_01
+  - hash:
+      serializedVersion: 2
+      Hash: 105cfea7001844f0fab80843bcfcec9f
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Modules.Aerodynamics
+    className: AerodynamicsModuleWrapper
+  - hash:
+      serializedVersion: 2
+      Hash: dc31d211c7459841fe4f406ae2e51480
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TextConsoleSimulator
+  - hash:
+      serializedVersion: 2
+      Hash: ea1b87a3bfed09792e7720338241c7a0
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDeviceDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 80a72b656b55a7a1fc92e1a02151ea22
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ScreenSpaceReflections
+  - hash:
+      serializedVersion: 2
+      Hash: 08e2446b65d2da7600c6bbdd36de0e56
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputSystemObject
+  - hash:
+      serializedVersion: 2
+      Hash: da61ea3c8583017f85b8f9ea03225e41
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Modules.CruiseControl
+    className: CruiseControlModuleWrapper
+  - hash:
+      serializedVersion: 2
+      Hash: 5a1710e1ce9ddf5eb06e0d2693171f49
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: ObjectSpin
+  - hash:
+      serializedVersion: 2
+      Hash: 013c61fe1d8e3517288d31c8744e6aec
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.VehicleGUI
+    className: DashLightEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 7e9cad7f71f9cc52f699bbd2d2a75734
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d5e62581a9aa479be209304bb7877fdd
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Modules.Trailer
+    className: TrailerHitchModuleWrapper
+  - hash:
+      serializedVersion: 2
+      Hash: 22c548970accf9673e6bcddbb406fd70
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.Demo
+    className: DemoWelcomeMessage
+  - hash:
+      serializedVersion: 2
+      Hash: 9aa6b6b268d228f8cedbb0345791d4c5
+    assemblyName: NWH.WheelController
+    namespaceName: NWH.WheelController3D
+    className: WheelControllerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: ffaaa6b08bc8a8928411e8e402432358
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessVolume
+  - hash:
+      serializedVersion: 2
+      Hash: aa349b22cd61b9e8488d736f82590d6b
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TMP_TextInfoDebugTool
+  - hash:
+      serializedVersion: 2
+      Hash: 8c59b9db2c7f09fafeee5845c1b94bda
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: 
+    className: GRCamRotate
+  - hash:
+      serializedVersion: 2
+      Hash: 0b63f6d3335e11939ce8790b904c8691
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: caaa3c8bbbda6f82ae756c5ab03cca2d
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Input
+    className: InputManagerVehicleInputProviderEditor
+  - hash:
+      serializedVersion: 2
+      Hash: e402a382f213255c22bda9254dd831b3
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: SceneVariables
+  - hash:
+      serializedVersion: 2
+      Hash: e88d71ef93aba4e7faf243430f6a10ce
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: MacroScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 90cf308600fb4aeb677786843453ec55
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: RemoteInputPlayerConnection
+  - hash:
+      serializedVersion: 2
+      Hash: ceeb6c51b89f022a3deb7b3408c66745
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TMP_TextEventCheck
+  - hash:
+      serializedVersion: 2
+      Hash: e1de74080785ab5c82d13f3951685ae2
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Utility
+    className: FollowVehicleStateEditor
+  - hash:
+      serializedVersion: 2
+      Hash: b6792907b61f32faaf3e23f55e750107
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessResources
+  - hash:
+      serializedVersion: 2
+      Hash: 2194bea4a43dd02b0d84beb3de1b9bde
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Demo
+    className: LapTimer
+  - hash:
+      serializedVersion: 2
+      Hash: f2098fcd8ee983a05ec192f63904298f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnEndDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 76aa43cc6adae8454a66255a8113266d
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AmbientOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: db9b308769d19e1f9e161df0392c23ca
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTransformChildrenChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6d94138b60a9299798dda96c1ee6725f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBeginDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 51b80d3734ea86b38e3101db98029e15
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0370b9f95798139b666659c7e1be6147
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: BaseInputOverride
+  - hash:
+      serializedVersion: 2
+      Hash: 007d862f7bcbb6e2d551ae1c719c9695
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.SceneManagement
+    className: VehicleChangerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 7cace1658709d9f847b4f7c7da04085d
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.Input
+    className: InputSystemSceneInputProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 47ee34eb8b6021efa0289dbbb17a5a85
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: ec6cf673540b2d4e42c612611eeafe4d
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9bc9083730a1f85c0e6eb2346b018b9d
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Input
+    className: InputSystemVehicleInputProviderEditor
+  - hash:
+      serializedVersion: 2
+      Hash: ab3d19695db8289414a06e6d45fd6c8e
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: ShaderPropAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 10c17b309bdca62b4d7fbaf113ed4ca0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 2dce93b811b5dc65ee63997cd6012a33
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.SetupWizard
+    className: VehicleSetupWizardEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 522f6865b4ec12522e602206785309f8
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: GlobalMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 33f160a5c07e580c29aba2bd1e4db811
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: da9de1f2ac1d3a53d4577d47742f71f6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ItemTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 191cd500c627cd6682ef6f70b8e47f2c
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0c0b64d103fe555d830e8ca206abd12a
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1981decccddfde3e97fcfd6689332a6f
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: WarpTextExample
+  - hash:
+      serializedVersion: 2
+      Hash: 17f82e3e7d8f8b07a270a4aad9bfe79d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 4ea1bf258a208f00f70cf744bd7e56ce
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Vignette
+  - hash:
+      serializedVersion: 2
+      Hash: 08b331ee477472cccc5173be8ce8d1d8
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Tests
+    className: VehicleRuntimeSpawnerTest
+  - hash:
+      serializedVersion: 2
+      Hash: c65fb8f721cc4462e7a642974c37d3c0
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: DepthOfField
+  - hash:
+      serializedVersion: 2
+      Hash: 0dd14e314956b0d0d83ffcffe60aa46f
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro
+    className: TMP_DigitValidator
+  - hash:
+      serializedVersion: 2
+      Hash: 27e94b2132bc64903108a773a4f342f4
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.Cameras
+    className: CameraChangerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: d82086405f46de14829f6b4bcbdd8fc9
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameInvisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0841983753798f03bfed097a0c304477
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.Input
+    className: MobileSceneInputProviderEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 5874b789cd9832847c61ebfa803213af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: e1c9dfe2a0f06d05bc39fad28de4597c
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.WelcomeMessage
+    className: WelcomeMessageWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 9dd54ce33440072d6692a67e0c384ad1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 7bed60f7cdb0b35636ff6a685aaebb06
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.Input
+    className: InputManagerSceneInputProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 0a8453a9d6cce42552fd51eea56653a1
+    assemblyName: KinoBloom.Runtime
+    namespaceName: Kino
+    className: Bloom
+  - hash:
+      serializedVersion: 2
+      Hash: 743df4340b4cf8d079a8d781e0186555
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Powertrain
+    className: TransmissionGearingProfile
+  - hash:
+      serializedVersion: 2
+      Hash: bf0842d88681628b29beb00b5e2ab785
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDeselectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a9572b3f3c89c5b7bf8cbb62b95ad2d7
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Tests
+    className: SceneReloadTest
+  - hash:
+      serializedVersion: 2
+      Hash: 3d3e9356f709d271bcd05ffa1f06b776
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Input
+    className: MobileVehicleInputProviderEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 6cac290ffa8e0f32236389de6afb8d7d
+    assemblyName: CFXRDemo
+    namespaceName: CartoonFX
+    className: CFXR_Demo_Rotate
+  - hash:
+      serializedVersion: 2
+      Hash: 2071f7ac454ae14eafecfd4041edae3a
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionEditorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 1ce63d97d1ca25cba2d91d5f32fd5f79
+    assemblyName: Unity.VisualScripting.State
+    namespaceName: Unity.VisualScripting
+    className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 6cf63e9dc888f92a3672d2e4db631c8e
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: PlayerInputManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 35e0b31791c377513b6fc7b9568c50cd
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: Benchmark02
+  - hash:
+      serializedVersion: 2
+      Hash: a46b70b1aaee2d04bec7e989401b38b8
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.GroundDetection
+    className: SurfacePreset
+  - hash:
+      serializedVersion: 2
+      Hash: 5f6d91638e46b0724a1921ad473d9c52
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Demo
+    className: DemoGUIController
+  - hash:
+      serializedVersion: 2
+      Hash: 4166580c620718548959a77fa7b43fc1
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TextMeshSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 37ba6d322c4bc9136930c235d4ee718a
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.SetupWizard
+    className: VehicleSetupWizardPreset
+  - hash:
+      serializedVersion: 2
+      Hash: ef38c1407dba8c1f5d69f5db61a694fe
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: AnimatorMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3c85bdab2771b9ad9b6f08ec8986b7f5
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.SceneManagement
+    className: CharacterVehicleChanger
+  - hash:
+      serializedVersion: 2
+      Hash: 33656f83bb0079184b2206a69690ec46
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 313fb4095123255b3d465ce462b4352b
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.Input
+    className: InputSystemSceneInputProviderEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 77b52cfaaf57f9bbfb7cfc4e6c29996a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CarController
+  - hash:
+      serializedVersion: 2
+      Hash: 4fbdf4b5a56e8e9ba3b121b30e8a6555
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Modules.TCS
+    className: TCSModuleWrapper
+  - hash:
+      serializedVersion: 2
+      Hash: 9637dcdf3068a91dfe653e61bb82f13d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: c289c0ecf89cf4703b1bdb9f322cde56
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.FloatingOrigin
+    className: FloatingOriginEditor
+  - hash:
+      serializedVersion: 2
+      Hash: ff688ea71e1685c0eb4540db00e6ce2d
+    assemblyName: NWH.WheelController
+    namespaceName: NWH.WheelController3D
+    className: FrictionPreset
+  - hash:
+      serializedVersion: 2
+      Hash: eccf3ffc005a1a44a834329e0d0602bd
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.Cameras
+    className: VehicleCamera
+  - hash:
+      serializedVersion: 2
+      Hash: da5a949a0bbd2ff91bc51c5805c2c41f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpAsButtonMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: fc0a9a681d29388386a9abf3f08b024a
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: Benchmark03
+  - hash:
+      serializedVersion: 2
+      Hash: fc5f473132116619f1c6e566ad803096
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionsEditorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 266579e66a473ae86d9ee26a916dd2fb
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Modules
+    className: ModuleUpgradeHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 4f353524ce6564e40764f1ea080b2d85
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d82cc9de6202eb3f6423ed6d6ca1cebc
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Input
+    className: InputManagerVehicleInputProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 9104447b683bf70406fa01f12ecb564a
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: a90f6a00b23520788be7d89ee3b0773d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 13f262cc0741566a7ab72682984bc3e1
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: febcfbf0a0d85e37808a3740e3c2c6fa
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: dd36abf74ca38809796fb22822d7261b
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.Demo.Editor
+    className: RigidbodyFPSControllerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 672716ae97f6ddb615fa5ac3ec9da349
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: fe077805a35fc086152b97bc88986546
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.Demo
+    className: FpsToText
+  - hash:
+      serializedVersion: 2
+      Hash: 65ed5a5a45b5a6ebea9d0f37ab550073
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ItemEvent
+  - hash:
+      serializedVersion: 2
+      Hash: bc75926bfd3609757f7bf33ff766f026
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.EnhancedTouch
+    className: TouchSimulation
+  - hash:
+      serializedVersion: 2
+      Hash: 617ea1a97cc14d2447d365083ac8337e
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Effects
+    className: SkidmarkDestroy
+  - hash:
+      serializedVersion: 2
+      Hash: 8ed5daadd237bb82e132790f75ffccaf
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: PlayerInputEditor
+  - hash:
+      serializedVersion: 2
+      Hash: a92561298b80715aa69e8fa770123cb5
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI.Editor
+    className: InputSystemUIInputModuleEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 8bbce9932f67ad8e7f4eefec87800f94
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: e3295252b4a249d75f6b87cfc4e7e1a3
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Utility
+    className: VehicleReflectionProbe
+  - hash:
+      serializedVersion: 2
+      Hash: 9d4a5bd9698ecb106b22b938624eed1f
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.Cameras
+    className: VehicleCameraEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 26793ae453d849944e623d5d95da47f0
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2
+    className: LOD
+  - hash:
+      serializedVersion: 2
+      Hash: 3074afe1b03a0fb081e176a4ef1b9d09
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionAssetEditor
+  - hash:
+      serializedVersion: 2
+      Hash: d319fbf5f26749bb0cd5c2d5b4514bac
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.SetupWizard
+    className: VehicleSetupWizard
+  - hash:
+      serializedVersion: 2
+      Hash: 7fdd3ee28e9042c3ec83463d0bb3b230
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TMP_FrameRateCounter
+  - hash:
+      serializedVersion: 2
+      Hash: e63fe08659e7e4647a51098c666f8845
+    assemblyName: Unity.InputSystem
+    namespaceName: 
+    className: DownloadableSample
+  - hash:
+      serializedVersion: 2
+      Hash: d0a1209b1164ff58210e241b90f01552
+    assemblyName: Assembly-CSharp
+    namespaceName: NWH.Common.PostProcessing
+    className: PostProcessingController
+  - hash:
+      serializedVersion: 2
+      Hash: f669be52680c88846b2093fd41d1e06e
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 20a120e55ad3ab65556328d5fd8309dd
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 11291589c790dbcb153b1f882b9a4f58
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.Cameras
+    className: CameraMouseDrag
+  - hash:
+      serializedVersion: 2
+      Hash: 5124a0cfb9e335814a7a8eb88ed00b85
+    assemblyName: CFXRRuntime
+    namespaceName: CartoonFX
+    className: CFXR_Effect
+  - hash:
+      serializedVersion: 2
+      Hash: 33eb495d99aa9bea4dbe8b4c4e02c7bb
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionReference
+  - hash:
+      serializedVersion: 2
+      Hash: 63dea1df8855f3269ae624fee7102a0e
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.Cameras
+    className: CameraChanger
+  - hash:
+      serializedVersion: 2
+      Hash: 17142b03663387290480c82303274c02
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f2305da2400dfe6f069770a1a63f0f7c
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 4878e735441f4041539853759559c86f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: c4b85a67513b4f0cf7b5fb2d5ded04b0
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d2ecd94550edf1b56aff07b1f4e41c57
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8668b70b18eb7f5cd2dce04386848007
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: VertexJitter
+  - hash:
+      serializedVersion: 2
+      Hash: 7bb32d6e4c7614a97d9723ce7e26588c
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: BasicPlayableBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: e8d390bd9ecacc453a7500b90d0c0292
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 19824dd35debb3fff0983df49f8359ab
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 0b7d7d25e56032fc36a0b5c1181712d6
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Modules.AirSteer
+    className: AirSteerModuleWrapper
+  - hash:
+      serializedVersion: 2
+      Hash: afb7b65d28d5a7423e69a1b076be0064
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 6a0b5b415c00f783202fd1ae2d556cb2
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b14e186823458f549289789cccbb77ce
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 04f2d6a4db8a670aeb2c87d9ffd08865
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro
+    className: TMP_TextEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 3fbef02cf38d3ae240468bd00d31b84c
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.Demo
+    className: DragObject
+  - hash:
+      serializedVersion: 2
+      Hash: ee34255e3e86289bde9bad5e07b84cbc
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollRectValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 772f4fb1008a71686611c3c9a33ae05b
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.Cameras
+    className: CameraInsideVehicle
+  - hash:
+      serializedVersion: 2
+      Hash: 830c3b545f6e6ee60a4cebab90516f2c
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: d0cdd713f9bf4e6a625d9e7804deca42
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 0a4ef3c4e73b2f3eef913e2325924084
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputSettings
+  - hash:
+      serializedVersion: 2
+      Hash: f2bdbd2d51a6486e850f1f8536aa518a
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.GroundDetection
+    className: LODEditor
+  - hash:
+      serializedVersion: 2
+      Hash: de255ba66f97cd209c7c793a43c9dd6e
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2
+    className: StateSettings
+  - hash:
+      serializedVersion: 2
+      Hash: a89b0448af4e1cd103a77f9fec0a961f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSubmitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5422c0947c1e743f7ae96095bd287cb1
+    assemblyName: NWH.WheelController
+    namespaceName: NWH.WheelController3D
+    className: FrictionPresetEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 5ebc58ec194dd44630b25fcc270ad4af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: e194eae0ced75d9b57ea3bbaf9b3e690
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.SceneManagement
+    className: VehicleChanger
+  - hash:
+      serializedVersion: 2
+      Hash: e2734bcc7b3e94776ade5d59f54fec1e
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TMP_TextSelector_B
+  - hash:
+      serializedVersion: 2
+      Hash: 4728e3d21cc2a12e391e71ec9b7eed0b
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 9383d5621604771afa988b2481b79117
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.Demo
+    className: DragObjectEditor
+  - hash:
+      serializedVersion: 2
+      Hash: f9e62f3a7d9c2e2748f7fb68babb8bea
+    assemblyName: CFXRRuntime
+    namespaceName: CartoonFX
+    className: CFXR_EmissionBySurface
+  - hash:
+      serializedVersion: 2
+      Hash: 67272c9c30c50b68ef1ce72ac0191c57
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMoveMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5cf923d13ce440ae296d10358e05e235
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.Cameras
+    className: CameraInsideVehicleEditor
+  - hash:
+      serializedVersion: 2
+      Hash: d0392b7f3f52d5af537ade186b4f51f1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 2fd42819c69acefd80a2bbcd49cbe8cf
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessProfile
+  - hash:
+      serializedVersion: 2
+      Hash: daeac1347f8039f61cd4017ff33bd3c6
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: InputSystemUIInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 429ce0b58f9d2275bbc4ed740bee78ec
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessDebug
+  - hash:
+      serializedVersion: 2
+      Hash: 8d355106d125c2e67f136f848f72930a
+    assemblyName: NWH.NRigidbody
+    namespaceName: NWH.NPhysics
+    className: NRigidbodyEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 81abcac4f15fd2dfc76ce16711dd5df5
+    assemblyName: CFXRRuntime
+    namespaceName: CartoonFX
+    className: CFXR_ParticleTextFontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: dbf1db0c828b4e9fb6f0ef752488911c
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.VehicleGUI
+    className: AnalogGaugeEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 4c39d57f2bda17d22e62d3993882f52a
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2
+    className: VehicleController
+  - hash:
+      serializedVersion: 2
+      Hash: 1c2fb8a9111b5f17b16949e613637485
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Modules.SpeedLimiter
+    className: SpeedLimiterModuleWrapper
+  - hash:
+      serializedVersion: 2
+      Hash: 9a174471d4db2c0c6d3ac47d2f818db1
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnParticleCollisionMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 40be2ad159aa1a2b72ecc74cb38c7824
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: MultiplayerEventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 76eb5ed6717767c19263969355944b61
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2
+    className: VehicleControllerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 2bbd05175d4cdd21e24f9716cdd24f83
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.XR
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 0f5a086d4d028363983ba6ca30a01397
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseOverMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5b399d4b87ee2d21b9facfd8f023ebfb
+    assemblyName: NWH.WheelController
+    namespaceName: NWH.WheelController3D
+    className: APITest
+  - hash:
+      serializedVersion: 2
+      Hash: 0237607a3a697cf130c195c13cb63a88
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ColorGrading
+  - hash:
+      serializedVersion: 2
+      Hash: 2c583ad0ac85d03e8700dd05fdcb46cb
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: Variables
+  - hash:
+      serializedVersion: 2
+      Hash: 502a0d788634601faaefeacfda55e23a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DropdownSample
+  - hash:
+      serializedVersion: 2
+      Hash: b30c8635462e66ac20f4241106119f77
+    assemblyName: Unity.VisualScripting.State
+    namespaceName: Unity.VisualScripting
+    className: StateMachine
+  - hash:
+      serializedVersion: 2
+      Hash: c4de0ff7e075dd89c9fed5913dd775d2
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro
+    className: TMP_PhoneNumberValidator
+  - hash:
+      serializedVersion: 2
+      Hash: fb91b0f531b5adecb53c856ab1c2f0aa
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: LensDistortion
+  - hash:
+      serializedVersion: 2
+      Hash: c4ae0ec287bc3cde0bc98e1a65f9cef7
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: VertexColorCycler
+  - hash:
+      serializedVersion: 2
+      Hash: 86025b4f91abf052fa78ae5c99e72a8a
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.CoM
+    className: VariableCenterOfMass
+  - hash:
+      serializedVersion: 2
+      Hash: 5350756de394023237b7b2bd36c38b1e
+    assemblyName: NWH.Common
+    namespaceName: NWH.Common.Input
+    className: MobileInputButton
+  - hash:
+      serializedVersion: 2
+      Hash: 568292fb7ea6c4f7a667e5ff76bc7e85
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1553f209ae0b2d5d3a35685fca55f9c3
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 9eccc4340fcd994586e0dcb134c4612e
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TeleType
+  - hash:
+      serializedVersion: 2
+      Hash: 1ec93868cf1289ff582e8e98946a9838
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: OscillateMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 44a81e9c57fc7e8eb3b5879ae941d1be
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Modules
+    className: ModuleWrapperEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 9fb1c3ab48b256d508ecddd967f98652
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: VertexZoom
+  - hash:
+      serializedVersion: 2
+      Hash: a619f7779ff69a73a214a7b9fd355db4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ItemSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: c46237a6e1a2f2b0c52431deda157067
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Modules.ModuleTemplate
+    className: ModuleTemplateWrapper
+  - hash:
+      serializedVersion: 2
+      Hash: 719bf9c6f4f61f3d5eb18e20bf7359ff
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Input
+    className: InputSystemVehicleInputProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 7f9fde1fa0fc917b3b7c552495a399be
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.GroundDetection
+    className: SurfacePresetEditor
+  - hash:
+      serializedVersion: 2
+      Hash: ff76cf6cf52b4db7b95af6ffadca9288
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: e019a2171b7d28be1bbccf9ff3d8a157
+    assemblyName: NWH.VehiclePhysics2
+    namespaceName: NWH.VehiclePhysics2.Demo
+    className: SimpleDayNight
+  - hash:
+      serializedVersion: 2
+      Hash: c4cdb902228df56d5b2b639d6a6bbd3c
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: PlayerInputManager
+  - hash:
+      serializedVersion: 2
+      Hash: 02a47340661d2ea7c6d30e292cfef403
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnToggleValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8bf800a764665b085fe469e8aea7f167
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4fcf0bb4aff1d14a1dfcdedc4b07bd05
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 216f6c07bfa250e44b3e8d62572474e8
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: Benchmark01
+  - hash:
+      serializedVersion: 2
+      Hash: 00eef92bf387da2c9009267123d9d674
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8b15e35eb98fc258ec2e839df7c3c9b0
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSliderValueChangedMessageListener
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/MapCar.unity
+  playerPath: D:/TourScreen/SolarEdge Race Techconnect/Build/SolarEdge Race Techconnect.exe
